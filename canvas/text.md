@@ -29,7 +29,7 @@ func main() {
 	myApp := app.New()
 	w := myApp.NewWindow("Text")
 
-	text := canvas.NewText("Text Object", color.White)
+	text := canvas.NewText("Text Object", color.Black)
 	text.Alignment = fyne.TextAlignTrailing
 	text.TextStyle = fyne.TextStyle{Italic: true}
 	w.SetContent(text)
